@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1061055579558",
+    "project_id": "gimenez-firebase-demo",
+    "storage_bucket": "gimenez-firebase-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061055579558:android:87ad05fa213a15aeeefb67",
+        "android_client_info": {
+          "package_name": "com.example.state_change_demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC61Wdas2iTiLQKUMia27GMCBlaBDI9tyY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

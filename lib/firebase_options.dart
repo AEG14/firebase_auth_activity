@@ -47,28 +47,29 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBDcXCEDyBOvinHgbjLZp5qLwsyQ1bG4dM',
-    appId: '1:1061055579558:web:98e784e68ee6bf58eefb67',
-    messagingSenderId: '1061055579558',
-    projectId: 'gimenez-firebase-demo',
-    authDomain: 'gimenez-firebase-demo.firebaseapp.com',
-    storageBucket: 'gimenez-firebase-demo.appspot.com',
+    apiKey: 'AIzaSyANmSblV8YdSZTS9WvqTAixFu04Q4HMh5g',
+    appId: '1:725566773970:web:5844461a3c6ee1d565eb0b',
+    messagingSenderId: '725566773970',
+    projectId: 'gimenez-firebase-demo-45a6e',
+    authDomain: 'gimenez-firebase-demo-45a6e.firebaseapp.com',
+    storageBucket: 'gimenez-firebase-demo-45a6e.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyC61Wdas2iTiLQKUMia27GMCBlaBDI9tyY',
-    appId: '1:1061055579558:android:87ad05fa213a15aeeefb67',
-    messagingSenderId: '1061055579558',
-    projectId: 'gimenez-firebase-demo',
-    storageBucket: 'gimenez-firebase-demo.appspot.com',
+    apiKey: 'AIzaSyBcJ6tjsE9i8nX1jDCIYY4sbZGSkyG94kI',
+    appId: '1:725566773970:android:5ce223167d88a89365eb0b',
+    messagingSenderId: '725566773970',
+    projectId: 'gimenez-firebase-demo-45a6e',
+    storageBucket: 'gimenez-firebase-demo-45a6e.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBM_So-f1zqoJ2YJAMC-XSKyJAWReaE0WU',
-    appId: '1:1061055579558:ios:dd63d8f14ad802f8eefb67',
-    messagingSenderId: '1061055579558',
-    projectId: 'gimenez-firebase-demo',
-    storageBucket: 'gimenez-firebase-demo.appspot.com',
+    apiKey: 'AIzaSyCdztNde1rs8XiM8ylEQEYFWL61SFh0r_8',
+    appId: '1:725566773970:ios:55d8d0dca1a38b4765eb0b',
+    messagingSenderId: '725566773970',
+    projectId: 'gimenez-firebase-demo-45a6e',
+    storageBucket: 'gimenez-firebase-demo-45a6e.appspot.com',
     iosBundleId: 'com.example.stateChangeDemo',
   );
+
 }

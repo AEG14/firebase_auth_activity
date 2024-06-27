@@ -30,12 +30,19 @@ class AuthController with ChangeNotifier {
   }
 
   void handleUserChanges(User? user) {
+    print(user?.email);
+    print(user?.displayName);
     if (user == null) {
       state = AuthState.unauthenticated;
     } else {
       state = AuthState.authenticated;
     }
     notifyListeners();
+  }
+
+  register(String email, String password) async {
+    UserCredential userCredential = await FirebaseAuth.instance
+        .createUserWithEmailAndPassword(email: email, password: password);
   }
 
   login(String userName, String password) async {

@@ -54,6 +54,7 @@ class AuthController with ChangeNotifier {
   ///write code to log out the user and add it to the home page.
   logout() {
     //should clear session
+    return FirebaseAuth.instance.signOut();
   }
 
   ///must be called in main before runApp
